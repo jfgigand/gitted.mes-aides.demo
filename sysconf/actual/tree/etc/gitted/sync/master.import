@@ -3,5 +3,4 @@
 . /etc/gitted/sync/defs
 
 GITTED_DATA_PATH=sysconf /usr/share/gitted/import/sysconf
-
-# GITTED_DATA_PATH=mongodb /usr/share/gitted/import/mongodb
+GITTED_DATA_PATH=mongodb /usr/share/gitted/import/mongodb
