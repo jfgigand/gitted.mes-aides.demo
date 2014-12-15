@@ -1,0 +1,5 @@
+# definitions for gitted/sync "mes-aides"       -*- shell-script -*-
+
+export GITTED_MONGODB_DATABASE=aire_test
+export GITTED_MONGODB_EXPORT_FORMAT=json
+export GITTED_MONGODB_FORMAT=json
