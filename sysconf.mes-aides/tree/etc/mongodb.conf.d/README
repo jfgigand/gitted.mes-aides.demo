@@ -1,0 +1,5 @@
+/etc/mongodb.conf.d, part of sysconf.mes-aides
+
+The files in this directory ending with "mongodb.conf" are concatenated
+into /etc/mongodb.conf by the install.sh script
+(in /sysconf/sysconf.mes-aides).
