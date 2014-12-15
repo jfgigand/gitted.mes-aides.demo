@@ -46,7 +46,7 @@ if [ ! -d /var/lib/mes-aides ]; then
     # branch=48262f692476387f9891b3d0dd04f5b9077b9c29
     branch=master
     git clone https://github.com/sgmap/mes-aides-ui.git \
-        -b $branch --depth 1 \
+        -b $branch --depth 1 mes-aides \
         || nef_fatal "could not clone GIT repos for: mes-aides-ui"
     cd mes-aides
     cat <<EOF >server
