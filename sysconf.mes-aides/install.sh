@@ -43,8 +43,10 @@ as_user="sudo -u mes-aides -g mes-aides"
 # Install mes-aides
 if [ ! -d /var/lib/mes-aides ]; then
     cd /var/lib
+    # branch=48262f692476387f9891b3d0dd04f5b9077b9c29
+    branch=master
     git clone https://github.com/sgmap/mes-aides-ui.git \
-        -b 48262f692476387f9891b3d0dd04f5b9077b9c29 --depth 1 \
+        -b $branch --depth 1 \
         || nef_fatal "could not clone GIT repos for: mes-aides-ui"
     cd mes-aides
     cat <<EOF >server
