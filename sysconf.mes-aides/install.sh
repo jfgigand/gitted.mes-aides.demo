@@ -21,8 +21,8 @@ fi
 
 # Install grunt, bower and forever globally
 for module in grunt-cli bower forever; do
-    if ! npm list $module -g >/dev/null; then
-        npm install -g module
+    if ! npm list -g $module >/dev/null; then
+        npm install -g $module
     fi
 done
 
