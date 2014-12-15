@@ -3,3 +3,4 @@
 { "v" : 1, "key" : { "_id" : 1 }, "ns" : "dds-dev.sessions", "name" : "_id_" }
 { "v" : 1, "key" : { "sid" : 1 }, "unique" : true, "ns" : "dds-dev.sessions", "name" : "sid_1", "background" : true, "safe" : null }
 { "v" : 1, "key" : { "usedAt" : 1 }, "ns" : "dds-dev.sessions", "name" : "usedAt_1", "expireAfterSeconds" : 86400, "background" : true, "safe" : null }
+{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "dds-dev.situations", "name" : "_id_" }
