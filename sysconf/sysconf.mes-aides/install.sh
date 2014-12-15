@@ -5,7 +5,7 @@
 _packages=
 _packages="$_packages mongodb-server"
 # These are required to build the dependencies of NodeJS app "mes-aides"
-_packages="python g++ make"
+_packages="$_packages python g++ make"
 sysconf_require_packages $_packages
 
 # setup MongoDB replica
