@@ -1,0 +1,3 @@
+#!/bin/bash
+
+GITTED_DATA_PATH=sysconf /usr/share/gitted/export/sysconf
