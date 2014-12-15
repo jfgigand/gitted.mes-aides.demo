@@ -6,7 +6,7 @@ apt_get="apt-get --yes -o Dpkg::Options::=--force-confdef"
 
 _packages=
 _packages="$_packages mongodb-server"
-_packages="$_packages ruby"
+_packages="$_packages ruby ruby-dev"
 # These are required to build the dependencies of NodeJS app "mes-aides"
 _packages="$_packages python g++ make"
 sysconf_require_packages $_packages
@@ -28,10 +28,10 @@ done
 
 # Install Compass through Ruby (CSS processor) if not installed
 if [ -z "$(which compass)" ]; then
-    sysconf_require_packages ruby-dev
+    # sysconf_require_packages ruby-dev
     gem install compass
-    $apt_get purge ruby-dev
-    $apt_get autoremove
+    # $apt_get purge ruby-dev
+    # $apt_get autoremove
 fi
 
 # "mes-aides" UNIX account
