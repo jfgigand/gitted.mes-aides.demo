@@ -16,8 +16,8 @@
 # Should-Stop:          $local_fs
 # Default-Start:        2 3 4 5
 # Default-Stop:         0 1 6
-# Short-Description:    NodeJS HTTP server working behind GLXC
-# Description:          NodeJS HTTP server working behind GLXC
+# Short-Description:    NodeJS HTTP daemon for Website "mes-aides" through 'forever'
+# Description:          NodeJS HTTP daemon for Website "mes-aides" through 'forever'
 ### END INIT INFO
 #
 ### BEGIN CHKCONFIG INFO
