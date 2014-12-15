@@ -8,9 +8,9 @@ plusieurs profils.
 
 Ces profils sont partagés avec d'autres dépôts _gitted_ et sont inclus
 ici avec la méthode
-[https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt](git-subtree)
+[git-subtree](https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt)
 (qui est une variante des
-[http://git-scm.com/docs/git-submodule](git-submodule)).
+[git-submodule](http://git-scm.com/docs/git-submodule)).
 
 Les commandes ci-dessous indiquent comment mettre à jour ces profils
 depuis leur dépôt officiel respectif (pull) ou bien extraire les

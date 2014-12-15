@@ -2,15 +2,16 @@
 
 Ce dépôt contient le profil SYSCONF [](sysconf.mes-aides) qui
 
-[https://github.com/geonef/sysconf.base](SYSCONF) est une méthode (+
+[SYSCONF](https://github.com/geonef/sysconf.base) est une méthode (+
 helper script) pour centraliser la configuration et autres fichiers
 modifiers d'un système pour faciliter le contrôle.
 
-[https://github.com/geonef/sysconf.gitted](Gitted) utilise SYSCONF
+[Gitted](https://github.com/geonef/sysconf.gitted) utilise SYSCONF
 pour la création automatique de containers LXC et gère des
 import/export de l'état de la VM à travers des git push/pull depuis
 l'extérieur.
 
+## Intérêt 
 
 ## Installation
 
